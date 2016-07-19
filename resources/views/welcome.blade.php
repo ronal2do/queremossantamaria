@@ -17,7 +17,7 @@
         <div class="container Flex Amarelo">
 
             <div class="">
-                <p class="">QUEREMOS</p>
+                <p class="Queremos">QUEREMOS</p>
             </div>
             <div class="">
                 <div class="Peoples"></div>

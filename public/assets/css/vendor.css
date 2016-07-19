@@ -1069,60 +1069,80 @@ body.stop-scrolling {
     transform: translateY(145%); } }
 
 @font-face {
-  font-family: 'ClarendonBT-Bold';
-  src: url('../fonts/ClarendonBT-Bold.woff') format('woff'),
-       url('../fonts/ClarendonBT-Bold.ttf') format('truetype'),
-       url('../fonts/ClarendonBT-Bold.svg#ClarendonBT-Bold') format('svg');
+  font-family: 'Gotham-Ultra';
+  src: url('../fonts/gotham-ultra/Gotham-Ultra.eot');
+  src: url('../fonts/gotham-ultra/Gotham-Ultra.woff2') format('woff2'),
+       url('../fonts/gotham-ultra/Gotham-Ultra.woff') format('woff'),
+       url('../fonts/gotham-ultra/Gotham-Ultra.ttf') format('truetype'),
+       url('../fonts/gotham-ultra/Gotham-Ultra.svg#Gotham-Ultra') format('svg'),
+       url('../fonts/gotham-ultra/Gotham-Ultra.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/gotham-bold/Gotham-Bold.eot');
+  src: url('../fonts/gotham-bold/Gotham-Bold.woff2') format('woff2'),
+       url('../fonts/gotham-bold/Gotham-Bold.woff') format('woff'),
+       url('../fonts/gotham-bold/Gotham-Bold.ttf') format('truetype'),
+       url('../fonts/gotham-bold/Gotham-Bold.svg#Gotham-Bold') format('svg'),
+       url('../fonts/gotham-bold/Gotham-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url('../fonts/gotham-black/Gotham-Black.eot');
+  src: url('../fonts/gotham-black/Gotham-Black.woff2') format('woff2'),
+       url('../fonts/gotham-black/Gotham-Black.woff') format('woff'),
+       url('../fonts/gotham-black/Gotham-Black.ttf') format('truetype'),
+       url('../fonts/gotham-black/Gotham-Black.svg#Gotham-Black') format('svg'),
+       url('../fonts/gotham-black/Gotham-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url('../fonts/gotham-book/Gotham-Book.eot');
+  src: url('../fonts/gotham-book/Gotham-Book.woff2') format('woff2'),
+       url('../fonts/gotham-book/Gotham-Book.woff') format('woff'),
+       url('../fonts/gotham-book/Gotham-Book.ttf') format('truetype'),
+       url('../fonts/gotham-book/Gotham-Book.svg#Gotham-Book') format('svg'),
+       url('../fonts/gotham-book/Gotham-Book.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'clarenbd';
-  src: url('../fonts/clarenbd.eot');
-  src: url('../fonts/clarenbd.woff2') format('woff2'),
-       url('../fonts/clarenbd.eot?#iefix') format('embedded-opentype');
+  font-family: 'Gotham-BookItalic';
+  src: url('../fonts/gotham-bookitalic/Gotham-BookItalic.eot');
+  src: url('../fonts/gotham-bookitalic/Gotham-BookItalic.woff2') format('woff2'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.woff') format('woff'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.ttf') format('truetype'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.svg#Gotham-BookItalic') format('svg'),
+       url('../fonts/gotham-bookitalic/Gotham-BookItalic.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'PTSerif-BoldItalic';
-  src: url('../fonts/PTSerif/PTSerif-BoldItalic.eot') format('embedded-opentype');
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/gotham-medium/Gotham-Medium.eot');
+  src: url('../fonts/gotham-medium/Gotham-Medium.woff2') format('woff2'),
+       url('../fonts/gotham-medium/Gotham-Medium.woff') format('woff'),
+       url('../fonts/gotham-medium/Gotham-Medium.ttf') format('truetype'),
+       url('../fonts/gotham-medium/Gotham-Medium.svg#Gotham-Medium') format('svg'),
+       url('../fonts/gotham-medium/Gotham-Medium.eot?#iefix') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'PTSerif-BoldItalic';
-  src:  url('../fonts/PTSerif/PTSerif-BoldItalic.woff') format('woff'), 
-      url('../fonts/PTSerif/PTSerif-BoldItalic.ttf')  format('truetype'), 
-      url('../fonts/PTSerif/PTSerif-BoldItalic.svg#PTSerif-BoldItalic') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'PTSerif-Regular';
-  src: url('../fonts/PTSerif/PTSerif-Regular.eot') format('embedded-opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'PTSerif-Regular';
-  src:  url('../fonts/PTSerif/PTSerif-Regular.woff') format('woff'), 
-      url('../fonts/PTSerif/PTSerif-Regular.ttf')  format('truetype'), 
-      url('../fonts/PTSerif/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 
 body,
 .panel-body{
-  font-family: 'PTSerif-Regular';
+  font-family: 'Gotham-Book';
+  font-size: .9em;
 }
 
 h1,
@@ -1130,7 +1150,7 @@ h2,
 h3,
 h4,
 .vcfaz{
-  font-family: 'ClarendonBT-Bold';
+  font-family: 'Gotham-Ultra';
 }
 .Amarelo{
   background-color: #ECBD1D;
@@ -1170,20 +1190,18 @@ h4,
   }
   .panel-title{
     border-right: 2px solid white;
+    font-family: 'Gotham-Black';
   }
 .panel-title,
 .panel-body{
   color:#fff;
   padding:20px;
 }
-.vcfaz{
-    color: #fff;
-    display: flex;
-    font-size: 1.5em;
-/*        margin-left: -46px;*/
-    font-weight: 900;
-    letter-spacing: -.09em;
-    word-spacing: 1em;
+.Queremos{
+  display: flex;
+  font-size: 2.5em;
+  font-family: 'Gotham-Ultra';
+  word-spacing: 1em;
 }
 .vcfaz:before{
   content:'vc ';
@@ -1220,13 +1238,13 @@ a:active{
   text-decoration: none;
 }
 .Peoples{
-    height: 100px;
-    width: 100px;
+    height: 87px;
+    width: 173px;
     margin: 0px;
     background-image: url('../svg/peoples.svg');
     background-repeat: no-repeat;
     background-position: 0;
-        background-size: contain;
+    background-size: contain;
 }
 .Box{
   float: right;
@@ -1273,7 +1291,9 @@ p.vcfaz{margin: 31px 0;
 }
 .Strong{
   color:#D12228;
-  font-weight: 900;
+  font-family: 'Gotham-Ultra';
+   font-size: 1.1em;
+ 
 }
 h4 {
     font-size: 1.2rem;
@@ -1314,21 +1334,11 @@ button[type=submit]{
 @media (min-width: 420px){
   
     p.vcfaz{margin: 1em 0;}
-    .vcfaz{
-        color: #fff;
-        display: flex;
-        font-size: 2em;
-        margin-left: -46px;
-        font-weight: 900;
-    }
-    .vcfaz:before{
-      content:'vc ';
-      color: #e63270;
-      text-transform: capitalize;
-    }
-    .vcfaz:after{
-      content:' sbc';
-      text-transform: uppercase;
+    .Queremos{
+      display: flex;
+      font-size: 2.5em;
+      font-family: 'Gotham-Ultra';
+      word-spacing: 1em;
     }
     .Peoples{
         height: 100px;
