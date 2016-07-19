@@ -16,12 +16,12 @@
     <section class="Header">
         <div class="container Flex Amarelo">
 
-            <div class="">
-                <p class="Queremos">QUEREMOS</p>
-            </div>
-            <div class="">
-                <div class="Peoples"></div>
-            </div>
+                <div class="">
+                    <p class="Queremos">QUEREMOS</p>
+                </div>
+                <div class="" style="width:100px;">
+                    <div class="Peoples"></div>
+                </div>
 
         </div>
     </section>

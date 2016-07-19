@@ -1199,7 +1199,7 @@ h4,
 }
 .Queremos{
   display: flex;
-  font-size: 2.5em;
+  font-size: 2.3em;
   font-family: 'Gotham-Ultra';
   word-spacing: 1em;
 }
@@ -1238,10 +1238,10 @@ a:active{
   text-decoration: none;
 }
 .Peoples{
-    height: 87px;
-    width: 173px;
-    margin: 0px;
-    background-image: url('../svg/peoples.svg');
+    height: 43px;
+    width: 92px;
+    padding: 0 11px;
+    background-image: url('../image/logo.png');
     background-repeat: no-repeat;
     background-position: 0;
     background-size: contain;
@@ -1331,17 +1331,18 @@ button[type=submit]{
   background: #fbaf3f;
 }
   
-@media (min-width: 420px){
+@media (min-width: 500px){
   
     p.vcfaz{margin: 1em 0;}
     .Queremos{
       display: flex;
-      font-size: 2.5em;
+      font-size: 3.5em;
       font-family: 'Gotham-Ultra';
       word-spacing: 1em;
     }
     .Peoples{
         height: 100px;
+        width: 300px;
         margin: 20px 0px;
         background-image: url('../svg/peoples.svg');
         background-repeat: no-repeat;
