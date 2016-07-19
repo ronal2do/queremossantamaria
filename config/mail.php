@@ -8,7 +8,7 @@ return [
 
     'port' => env('MAIL_PORT', 587),
 
-    'from' => ['address' => 'postmaster@vcfazsbc.com.br', 'name' => 'Vc faz SBC.'],
+    'from' => ['address' => 'postmaster@queremossantamaria.com.br', 'name' => 'Queremos Santa Maria'],
 
     'encryption' => env('MAIL_ENCRYPTION', ''),
 
