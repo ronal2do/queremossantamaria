@@ -1,0 +1,308 @@
+@font-face {
+  font-family: 'ClarendonBT-Bold';
+  src: url('../fonts/ClarendonBT-Bold.woff') format('woff'),
+       url('../fonts/ClarendonBT-Bold.ttf') format('truetype'),
+       url('../fonts/ClarendonBT-Bold.svg#ClarendonBT-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'clarenbd';
+  src: url('../fonts/clarenbd.eot');
+  src: url('../fonts/clarenbd.woff2') format('woff2'),
+       url('../fonts/clarenbd.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSerif-BoldItalic';
+  src: url('../fonts/PTSerif/PTSerif-BoldItalic.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSerif-BoldItalic';
+  src:  url('../fonts/PTSerif/PTSerif-BoldItalic.woff') format('woff'), 
+      url('../fonts/PTSerif/PTSerif-BoldItalic.ttf')  format('truetype'), 
+      url('../fonts/PTSerif/PTSerif-BoldItalic.svg#PTSerif-BoldItalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'PTSerif-Regular';
+  src: url('../fonts/PTSerif/PTSerif-Regular.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PTSerif-Regular';
+  src:  url('../fonts/PTSerif/PTSerif-Regular.woff') format('woff'), 
+      url('../fonts/PTSerif/PTSerif-Regular.ttf')  format('truetype'), 
+      url('../fonts/PTSerif/PTSerif-Regular.svg#PTSerif-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body,
+.panel-body{
+  font-family: 'PTSerif-Regular';
+}
+
+h1,
+h2,
+h3,
+h4,
+.vcfaz{
+  font-family: 'ClarendonBT-Bold';
+}
+
+      body{
+        background-color: #363639;
+        color: #fff;
+      }
+
+      .Header{
+        height: 100%;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQIW2NkwAIYoWL1DAwMjTB5mCCKeuIFAUugAQZS1p09AAAAAElFTkSuQmCC ) repeat;
+        border-top: none;}
+      .Line{}
+      .Small{
+        font-size: .5em;
+        color: #fbaf3f;
+      }
+      .panel-heading{
+        padding: 10px 30px 2px 10px;
+        color: #fff;
+      }
+      .panel-title{
+        border-right: 2px solid white;
+      }
+    .panel-title,
+    .panel-body{
+      color:#fff;
+      padding:20px;
+    }
+    .vcfaz{
+        color: #fff;
+        display: flex;
+        font-size: 1.5em;
+/*        margin-left: -46px;*/
+        font-weight: 900;
+        letter-spacing: -.09em;
+        word-spacing: 1em;
+    }
+    .vcfaz:before{
+      content:'vc ';
+      margin-right: 5px;
+      color: #e63270;
+      text-transform: capitalize;
+    }
+    .vcfaz:after{
+      content:' sbc';
+      margin-left: 5px;
+      text-transform: uppercase;
+    }
+
+    /*.Red{padding:20px;}*/
+    .Red:nth-of-type(1n){
+      background:#c92c61;
+    } 
+    .Red:nth-of-type(2n){
+      background:#af224a;
+    } 
+    .Red:nth-of-type(3n){
+      background:#80142a;
+    } 
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    a:hover,
+    a:focus,
+    a:active{
+      text-decoration: none;
+    }
+    .Peoples{
+        height: 100px;
+        margin: 0px;
+        background-image: url('../svg/peoples.svg');
+        background-repeat: no-repeat;
+        background-position: 0;
+            background-size: contain;
+    }
+    .Box{
+      float: right;
+      margin-top: 10px;
+        height: 80px;
+        width: 95px;
+        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQIW2NkwAIYoWL1DAwMjTB5mCCKeuIFAUugAQZS1p09AAAAAElFTkSuQmCC ) repeat;
+        background-color: #fff;
+    }
+    .Tarcisio{
+      height: 70%;
+        background-image: url('../svg/t.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin: 10px;
+    }
+    .waves-effect {
+        position: relative;
+        cursor: pointer;
+        display: block;
+    }
+    .fundo{
+      background-image: url('../image/fundo.png');
+      background-size: cover;
+    }
+    .Barra {
+      position: relative;
+        top: -34px;
+        left: -11px;
+        width: 109px;
+        height: 3px;
+        background: #C92C61;
+        background: -moz-linear-gradient(right, #C92C61 0%, #C92C61 33%, #AF224A 34%, #AF224A 66%, #80142A 67%, #80142A 100%);
+        background: -webkit-linear-gradient(right, #C92C61 0%,#C92C61 33%,#AF224A 34%,#AF224A 66%,#80142A 67%,#80142A 100%);
+        background: linear-gradient(to left, #C92C61 0%,#C92C61 33%,#AF224A 34%,#AF224A 66%,#80142A 67%,#80142A 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C92C61', endColorstr='#80142A',GradientType=0 );
+    }
+    p {
+      margin: 1em 14px;
+      font-weight: 100;
+    }
+    p.vcfaz{margin: 31px 0;
+}
+    .Strong{
+      color:#fbaf3f;
+      font-weight: 900;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+    .hidden{
+      visibility: hidden;
+    }
+    .form-control:not(textarea) {
+        display: block;
+        width: 100%;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: #fff;
+        background-color: transparent;
+        background-image: none;
+        border: none;
+        border-bottom: 1px dotted #fff;
+        border-radius: 0;
+    }
+    input.form-control::-webkit-input-placeholder { /* WebKit browsers */
+        color:    #fff;
+    }
+    input.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color:    #fff;
+    }
+    input.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color:    #fff;
+    }
+    input.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+        color:    #fff;
+    }
+    button[type=submit]{
+      margin-top:10px;
+      background: #fbaf3f;
+    }
+      
+    @media (min-width: 420px){
+      
+        p.vcfaz{margin: 1em 0;}
+        .vcfaz{
+            color: #fff;
+            display: flex;
+            font-size: 2em;
+            margin-left: -46px;
+            font-weight: 900;
+        }
+        .vcfaz:before{
+          content:'vc ';
+          color: #e63270;
+          text-transform: capitalize;
+        }
+        .vcfaz:after{
+          content:' sbc';
+          text-transform: uppercase;
+        }
+        .Peoples{
+            height: 100px;
+            margin: 20px 0px;
+            background-image: url('../svg/peoples.svg');
+            background-repeat: no-repeat;
+            background-position: 0;
+        }
+        .Box{
+          float: right;
+          margin-top: 10px;
+            height: 120px;
+            width: 130px;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQIW2NkwAIYoWL1DAwMjTB5mCCKeuIFAUugAQZS1p09AAAAAElFTkSuQmCC ) repeat;
+            background-color: #fff;
+            padding: 10px;
+        
+        }
+        .Tarcisio{
+            height: 100%;
+            background-image: url('../svg/t.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0px;
+        }
+        .Barra {
+          position: relative;
+            top: -36px;
+            left: -14px;
+            width: 145px;
+            height: 3px;
+            background: #C92C61;
+            background: -moz-linear-gradient(right, #C92C61 0%, #C92C61 33%, #AF224A 34%, #AF224A 66%, #80142A 67%, #80142A 100%);
+            background: -webkit-linear-gradient(right, #C92C61 0%,#C92C61 33%,#AF224A 34%,#AF224A 66%,#80142A 67%,#80142A 100%);
+            background: linear-gradient(to left, #C92C61 0%,#C92C61 33%,#AF224A 34%,#AF224A 66%,#80142A 67%,#80142A 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C92C61', endColorstr='#80142A',GradientType=0 );
+        }
+    }
+
+    @media (min-width: 54em){
+      p.vcfaz {
+          margin: .5em 12px;
+      }
+      .vcfaz {
+          color: #fff;
+          display: flex;
+          font-size: 3.5em;
+          margin-left: -46px;
+          font-weight: 900;
+      }
+      .Barra{
+        top: -40px;
+        left: -3px;
+        width: 264px;
+        height: 4px;
+      }
+      .vcfaz:before{
+        content:'vc ';
+        margin-right: 15px;
+        color: #e63270;
+        text-transform: capitalize;
+      }
+      .vcfaz:after{
+        content:' sbc';
+        margin-left: 15px;
+        text-transform: uppercase;
+      }
+    }
