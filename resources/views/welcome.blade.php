@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Vc faz SBC</title>
+    <title>QUEREMOS SANTA MARIA</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./assets/css/vendor.css" />
@@ -14,18 +14,15 @@
   <body>
 
     <section class="Header">
-        <div class="container">
+        <div class="container Flex Amarelo">
 
-            <div class="col-sm-3 col-md-3 col-xs-3 "><div class="Peoples"></div></div>
-            <div class="col-sm-6 col-md-6 col-xs-6">
-                <p class="vcfaz">faz</p><p class="Barra"></p>
+            <div class="">
+                <p class="">QUEREMOS</p>
             </div>
-            <div class="col-sm-3 col-md-3 col-xs-3">
-                <div class="Box">
-                    <div class="Tarcisio"></div>
-                </div>
+            <div class="">
+                <div class="Peoples"></div>
             </div>
-          
+
         </div>
     </section>
 
@@ -43,19 +40,20 @@
             <div class="panel-heading">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> 
                     <h4 class="panel-title">
-                    Pra São Bernardo <br>
-                    seguir mudando.
+                        Queremos! <br>
                     </h4>
                     <span class="Line"></span>
                 </a>
             </div>
             <div id="collapse1" class="panel-collapse collapse"> <!--collapse in -->
                 <div class="panel-body">
-                    <p>Nos últimos oito anos, experimentamos importantes avanços em todas as áreas, com obras, programas e ações que elevaram São Bernardo à condição de cidade líder no ABC, posição reconhecida inclusive por quem é de fora.</p>
-                    <p>A cidade dos batateiros, do automóvel, da Billings, da luta sindical passou a ser também a cidade da Nova Lions, do Hospital de Clínicas Municipal, dos novos conjuntos habitacionais, dos CEUs, do Drenar, do Centro Integrado de Monitoramento, de conquistas que promoveram a inclusão e que tiveram origem na participação cidadã.</p>
-                    <p>Participação que se faz presente na decisão dos investimentos prioritários, na definição das estratégias de longo prazo, na construção das políticas, na relação próxima entre quem presta serviços e quem recebe atenção. </p>
-                    <p>E queremos ir além, queremos ampliar esse legado, produzir mais participação, investimentos e cuidados com a cidade e sua gente, um processo que, por ser aberto, democrático e inclusivo, precisa da sua crítica, da sua ideia, da sua participação.</p>
-
+                    <p>Queremos mais por Santa Maria. Queremos trabalhar 
+                        e construir o futuro que está no coração e na boca do povo, 
+                        em reivindicações e ações participativas com prioridades que favoreçam nossa cidade de forma inclusiva. Queremos olhar 
+                        e seguir em frente reconhecendo o que de bom foi feito no passado e fazendo o que deve ser feito no presente. 
+                        Queremos um futuro melhor.  
+                        Vamos fazer juntos a Santa Maria que queremos deixar para as nossas futuras gerações!
+                    </p>
               </div>
             </div>
         </div>
@@ -63,31 +61,51 @@
         <div class="panel panel-default Red">
             <div class="panel-heading ">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"> 
-                    <h4 class="panel-title">
-                        Eixos para São Bernardo <br>
-                        que cuida da sua gente.
+                    <h4 class="panel-title Strong">
+                        A Santa Maria que queremos <br>
+                        vai seguir avançando 
                     </h4>
                     <span class="Line"></span>
                 </a>
             </div>
             <div id="collapse2" class="panel-collapse collapse">
                 <div class="panel-body">
-                    <p class="Strong">Desenvolvimento humano e inclusão social.</p>
-                    <p>
-                        Emprestar um olhar diferente na relação com as pessoas dando um passo adiante na implementação de programas e ações de forma a possibilitar mais proximidade, mais cuidados, mais cidadania e mais oportunidades, respeitando as diversidades, as vocações e as necessidades.
-                    </p>
-                    <p class="Strong">Integração territorial e qualidade de vida urbana.</p>
+                    <p class="Strong">Queremos uma Santa Maria atenciosa, protetora, 
+                        inclusiva e cuidadosa com as pessoas. </p>
+                    <p class="Texto">
+                        Prevalecerá uma presença respeitosa do governo nos bairros 
+                        e na vida dos seus moradores. Uma relação próxima e 
+                        servidora com melhorias e avanços nas políticas e nos serviços públicos para atender a contento as demandas e as 
+                        necessidades urgentes da população. Atenção, proteção 
+                        e cuidados na Saúde, Educação, Segurança e demais áreas essenciais, e no dia a dia dos jovens, das mulheres, dos 
+                        idosos, entre outros segmentos, em respeito à cidadania 
+                        e à diversidade.
 
-                    <p>
-                        Redimensionar projetos e estratégias fazendo com eles que produzam espaços integrados e coletivos de bem viver, encurtando distâncias, preservando o meio ambiente, estimulando talentos, protegendo a vida, promovendo encontros.
                     </p>
-                    <p class="Strong">Planejamento participativo e inovação institucional.</p>
-                    <p>
-                       Fortalecer os fóruns de participação cidadã, ampliando e qualificando os processos de debate, planejamento, gestão, zeladoria e desenvolvimento de São Bernardo do Campo, pensando a cidade e suas regiões.
+                    <p class="Strong">Queremos uma Santa Maria sustentável, 
+                        com oportunidades e desenvolvimento aliado 
+                        à qualidade de vida. 
                     </p>
-                    <p class="Strong">São Bernardo (cidade) do futuro.</p>
-                    <p>
-                        Combinar base, potencialidades, competências, inovação e arranjos na construção de um modelo de desenvolvimento econômico sustentado que compreenda trabalho, empreendedorismo, inteligência e negócios como partes de um mesmo processo feito de gente.
+
+                    <p class="Texto">
+                        Prevalecerá o compromisso com o futuro de Santa Maria, 
+                        o de identificar vocações, incentivar o empreendedorismo 
+                        e promover o desenvolvimento econômico com a geração 
+                        de riquezas, postos de trabalho e renda, sem abrir mão da 
+                        sustentabilidade, da responsabilidade social e da qualidade 
+                        de vida da população.
+                    </p>
+                    <p class="Strong">Queremos uma Santa Maria receptiva, com infraestrutura de convivência e mobilidade urbana.</p>
+                    <p class="Texto">
+                        Prevalecerá a visão de fazer uma cidade funcional e acolhedora, com equipamentos e espaços urbanos que promovam 
+                        encontros, lazer e bem-estar, melhorando a mobilidade urbana com equipamentos confortáveis, obras e intervenções que 
+                        encurtem o tempo e a distância.
+                    </p>
+                    <p class="Strong">Queremos uma Santa Maria acessível, com informação, transparência e eficiência na gestão.</p>
+                    <p class="Texto">
+                        Prevalecerá a verdade que a eficiência da administração passa, necessariamente, pelo controle social e pela participação 
+                        da população, desde a aplicação dos recursos à fiscalização 
+                        da qualidade dos serviços públicos prestados.
                     </p>
               </div>
             </div>
@@ -97,16 +115,14 @@
             <div class="panel-heading">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"> 
                     <h4 class="panel-title">
-                        Aqui a participação cidadã <br>
-                        é marca e método. <br>
-                        <small class="Small">Compartilhe suas ideias</small>
+                        Participe com ideias <br>
+                        e transforme nosso futuro!
                     </h4>
                     <span class="Line"></span>                  
                 </a>
             </div>
             <div id="collapse3" class="panel-collapse collapse">
                 <div class="panel-body" data-ng-app="vcFazSbc">
-                        <p>A partir dos eixos aqui propostos, deixe sua contribuição, ajude a fazer a cidade que queremos.</p>
                         <p>
                             <form class="form-horizontal" role="form" action="/api/contact" method="POST" name="form">
                                     @if (count($errors) > 0)
@@ -187,7 +203,7 @@
                                             </label>
                                         </div>
                                      </div>
-                                    <p class="Strong">Sugestão para programa de governo.</p>
+                                    <p class="">Sugestão para programa de governo.</p>
                                     <div class="form-group">
                                         <div class="col-sm-offset-2 col-md-offset-0 col-sm-10 col-md-12">
                                             <textarea class="form-control" 
