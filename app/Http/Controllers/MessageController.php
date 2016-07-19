@@ -40,7 +40,7 @@ class MessageController extends Controller
             	'sugestao' => $sugestao
          	], function ($m) use ($nome, $email, $endereco, $telefone, $celular, $whatsapp, $sugestao) {
             
-            $m->to('ronal2do@gmail.com')
+            $m->to('queremossantamaria@gmail.com')
               ->subject("Queremos Santa Maria - Nova sugestão");
         });
 
