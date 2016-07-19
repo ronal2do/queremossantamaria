@@ -32,7 +32,7 @@
             
             <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 26px; line-height: 1.2em; color: #80142a; font-weight: 200; margin: 40px 0 10px; padding: 0;">{{ $nome }}, <br></h1>
          
-<!-- /button --><p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">{{ $email }}, {{ $endereco }}, {{ $telefone }}, {{ $celular }} receber WhatsApp {{ $whatsapp }}. </p>
+<!-- /button --><p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">{{ $email }}, <br> {{ $endereco }}, <br>{{ $telefone }}, <br>{{ $celular }} receber WhatsApp {{ $whatsapp }}. </p>
 
 <hr>
 <p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6em; font-weight: normal; margin: 0 0 10px; padding: 0;">{!! $sugestao !!}</p>
