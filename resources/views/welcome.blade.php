@@ -40,9 +40,13 @@
             <div class="panel-heading">
                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"> 
                     <h4 class="panel-title">
-                        Queremos! <br>
+                        Queremos! 
                     </h4>
-                    <span class="Line"></span>
+                    <span class="Bolinha">
+                            <svg height="20" width="20">
+                              <circle cx="10" cy="10" r="8" fill="white" />
+                            </svg>
+                    </span> 
                 </a>
             </div>
             <div id="collapse1" class="panel-collapse collapse"> <!--collapse in -->
@@ -65,7 +69,11 @@
                         A Santa Maria que queremos <br>
                         vai seguir avançando 
                     </h4>
-                    <span class="Line"></span>
+                    <span class="Bolinha">
+                           <svg height="20" width="20">
+                              <circle cx="10" cy="10" r="8" fill="#D12228" />
+                            </svg> 
+                    </span>
                 </a>
             </div>
             <div id="collapse2" class="panel-collapse collapse">
@@ -118,7 +126,11 @@
                         Participe com ideias <br>
                         e transforme nosso futuro!
                     </h4>
-                    <span class="Line"></span>                  
+                    <span class="Bolinha">
+                           <svg height="20" width="20">
+                              <circle cx="10" cy="10" r="8" fill="white" />
+                            </svg> 
+                    </span>                  
                 </a>
             </div>
             <div id="collapse3" class="panel-collapse collapse">

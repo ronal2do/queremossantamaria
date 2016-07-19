@@ -1174,8 +1174,16 @@ h4,
     background-color: #363639;
     color: #fff;
   }
-
-  .Header{
+span.Bolinha{
+  float: right;
+  bottom: 14px;
+  margin-top: -30px;
+  margin-right: -16px;
+}
+.form-group {
+    margin-bottom: 0;
+}
+.Header{
     height: 100%;
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAG0lEQVQIW2NkwAIYoWL1DAwMjTB5mCCKeuIFAUugAQZS1p09AAAAAElFTkSuQmCC ) repeat;
     border-top: none;}
@@ -1189,7 +1197,6 @@ h4,
     color: #fff;
   }
   .panel-title{
-    border-right: 2px solid white;
     font-family: 'Gotham-Black';
   }
 .panel-title,
@@ -1330,6 +1337,7 @@ button[type=submit]{
   margin-top:10px;
   background: #fbaf3f;
 }
+
   
 @media (min-width: 500px){
   

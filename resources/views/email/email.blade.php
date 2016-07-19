@@ -10,7 +10,7 @@
   
   .Logo-container{
     width: 100%;
-    background: url('http://vcfazsbc.com.br/assets/image/t.png');
+    background: url('http://queremossantamaria.com.br/assets/image/logo.png');
     background-size: cover;
     margin:0;
   }
@@ -28,7 +28,7 @@
       <div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; display: block; max-width: 600px; margin: 0 auto; padding: 0;">
       <table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; width: 100%; margin: 0; padding: 0;"><tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
 <td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6em; margin: 0; padding: 0;">
-           <img src="http://vcfazsbc.com.br/assets/image/t.png" alt="VC faz SBC" width="150">
+           <img src="http://queremossantamaria.com.br/assets/image/logo.png" alt="VC faz SBC" width="150">
             
             <h1 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 26px; line-height: 1.2em; color: #80142a; font-weight: 200; margin: 40px 0 10px; padding: 0;">{{ $nome }}, <br></h1>
          
